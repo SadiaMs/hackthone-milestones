@@ -1,0 +1,198 @@
+/* General Page Styling */
+body {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    background-color: #f4f7fc;
+    margin: 0;
+    padding: 50px 0;
+    color: #333;
+}
+
+/* Resume Container */
+.resume-container {
+    display: flex;
+    background-color: #ffffff;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 15px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.resume-container:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
+}
+
+/* Left Section Styling */
+.left-section {
+    width: 35%;
+    background-color: #7219a3;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+    border: 5px solid #fff;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+#contact-info {
+    text-align: left;
+    font-size: 16px;
+}
+
+#contact-info p {
+    margin-bottom: 10px;
+}
+
+#contact-info a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* Right Section Styling */
+.right-section {
+    width: 65%;
+    background-color: #ffffff;
+    padding: 40px;
+}
+
+.right-section h2 {
+    font-size: 24px;
+    color: #7219a3;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.right-section p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Career Objective, Education, Work Experience */
+#career-objective, #education, #certification, #work-experience {
+    margin-bottom: 30px;
+}
+
+.right-section b {
+    font-size: 16px;
+}
+
+/* Enhanced Skills Section Styling */
+#skills {
+    background: linear-gradient(135deg, #f3ec78, #af4261);
+    padding: 30px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    color: #fff;
+}
+
+#skills:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+}
+
+#skills h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.7);
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#skills ul li {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    padding: 12px 25px;
+    margin: 15px;
+    border-radius: 50px;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+#skills ul li:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+    transform: translateY(-10px);
+}
+
+#skills ul li::before {
+    content: '•';
+    margin-right: 8px;
+    color: #fff;
+    font-size: 24px;
+}
+
+/* Button Styling */
+button {
+    display: block;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-size: 18px;
+    padding: 12px 25px;
+    color: #fff;
+    background-color: #7219a3;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    width: 100%;
+    text-align: center;
+}
+
+button:hover {
+    background-color: #5c1282;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+}
+
+button:active {
+    transform: scale(0.98);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
